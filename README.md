@@ -1,6 +1,8 @@
 # syntastic-local-eslint.vim
 
-Prefer local repo install of eslint over global install with syntastic
+Prefer local repo install of eslint over global install with syntastic. Uses
+[npm-which](https://www.npmjs.com/package/npm-which) instead of `npm bin` for
+faster load time.
 
 Installation Instructions
 -------------------------
@@ -8,7 +10,7 @@ Installation Instructions
 Using [vim plugged](https://github.com/junegunn/vim-plug) you just need to add:
 
 ```
-Plug 'pmsorhaindo/syntastic-local-eslint.vim'
+Plug 'dannysu/syntastic-local-eslint.vim'
 ```
 
 Inspired By
